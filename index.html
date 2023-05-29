@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Expenses chart component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="expense-container">
+        <div class="my-balance">
+          <p>My Balance</p>
+          <h1>$921.48</h1>
+          <img src="./images/logo.svg" alt="" class="logo" />
+        </div>
+
+        <div class="expense-chart">
+          <h2>Spending - Last 7 days</h2>
+          <div class="chart-component">
+            <div class="chart">
+              <div class="mon graph"></div>
+              <p>mon</p>
+              <p class="price" id="price">$17.45</p>
+            </div>
+            <div class="chart">
+              <div class="tue graph"></div>
+              <p>tue</p>
+              <p class="price" id="price">$34.91</p>
+            </div>
+            <div class="chart">
+              <div class="wed graph"></div>
+              <p>wed</p>
+              <p class="price" id="price">$52.36</p>
+            </div>
+            <div class="chart">
+              <div class="thu graph"></div>
+              <p>thu</p>
+              <p class="price" id="price">$31.07</p>
+            </div>
+            <div class="chart">
+              <div class="fri graph"></div>
+              <p>fri</p>
+              <p class="price" id="price">$23.39</p>
+            </div>
+            <div class="chart">
+              <div class="sat graph"></div>
+              <p>sat</p>
+              <p class="price" id="price">$43.28</p>
+            </div>
+            <div class="chart">
+              <div class="sun graph"></div>
+              <p>sun</p>
+              <p class="price" id="price">$125.48</p>
+            </div>
+          </div>
+
+          <div class="this-month">
+            <div class="this-month-info">
+              <h4>Total this month</h4>
+              <p>$478.33</p>
+            </div>
+
+            <div class="last-month">
+              <p>+2.4%</p>
+              <h5>from last month</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
